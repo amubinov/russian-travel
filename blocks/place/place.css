@@ -3,5 +3,12 @@
     grid-template-columns: minmax(440px,460px) 1fr;
     grid-template-rows: repeat(2, min-content);
     gap: 40px;
-    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 984px;
+    margin: 0 auto;
+    font-family: "Inter",sans-serif;
+}
+
+.place:last-child {
+    padding-bottom: 0;
 }
