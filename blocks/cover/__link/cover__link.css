@@ -1,8 +1,8 @@
 .cover__link {
-    display: flex;
-    z-index: 3;
-    grid-area: 1/-1;
-    text-decoration: none;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  z-index: 3;
+  grid-area: 1/-1;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
 }

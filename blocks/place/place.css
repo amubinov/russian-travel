@@ -1,23 +1,21 @@
 .place {
-	margin-bottom: 80px;
-	display: flex;
-	flex-wrap: wrap;
-
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .place:last-of-type {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
-	.place {
-		margin-bottom: 73px;
-	}
+  .place {
+    margin-bottom: 73px;
+  }
 }
 
-
 @media screen and (max-width: 480px) {
-	.place {
-		margin-bottom: 50px;
-	}
+  .place {
+    margin-bottom: 50px;
+  }
 }
