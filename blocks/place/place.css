@@ -1,14 +1,23 @@
 .place {
-    display: grid;
-    grid-template-columns: minmax(440px,460px) 1fr;
-    grid-template-rows: repeat(2, min-content);
-    gap: 40px;
-    padding-bottom: 80px;
-    max-width: 984px;
-    margin: 0 auto;
-    font-family: "Inter",sans-serif;
+	margin-bottom: 80px;
+	display: flex;
+	flex-wrap: wrap;
+
 }
 
-.place:last-child {
-    padding-bottom: 0;
+.place:last-of-type {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+	.place {
+		margin-bottom: 73px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.place {
+		margin-bottom: 50px;
+	}
 }

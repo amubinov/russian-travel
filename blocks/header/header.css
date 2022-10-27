@@ -1,9 +1,20 @@
 .header {
-    max-width: 1184px;
-    margin: 28px 48px 0;
     display: flex;
+    padding: 28px 48px 0 48px;
+    width: 100%;
     justify-content: space-between;
-    align-items: center;
-    font-family: "Inter",sans-serif;
-    
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px 16px 0 16px;
+    }
 }
