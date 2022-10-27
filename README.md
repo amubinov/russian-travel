@@ -5,11 +5,11 @@
 
 * ### Использованные технологии :
 
-    *HTML и CSS.
-    *Flexbox.
-    *Grid Layout.
-    *Media queries для адаптивной верстки.
-    *BEM Nested для организации файлов.
+    * HTML и CSS.
+    * Flexbox.
+    * Grid Layout.
+    * Media queries для адаптивной верстки.
+    * BEM Nested для организации файлов.
 
 * Картинки
 
