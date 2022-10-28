@@ -23,11 +23,4 @@
     margin-bottom: 64px;
   }
 }
-@media screen and (max-width: 767px) {
-  .lead__subtitle {
-    line-height: 1.25;
-    max-width: 288px;
-    font-size: 16px;
-    margin: 0 auto 40px;
-  }
-}
+
